@@ -17,3 +17,8 @@ const BlogPage = ({ title, content, author, date }) => {
 };
 
 export default BlogPage
+
+// 1. Look at the `BlogPost` component 
+// 2. Answer the following
+//    - What props does the component expect? title, content, author, date
+//    - How will these props be used in the component? Dynamically change the information as it renders
