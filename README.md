@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+### Exercise 1: Console Logging Props
+**Objective:** Understand how to access and use props in a React component.
+1. Create a functional React component named `LoggerComponent`.
+2. This component should accept a prop named `message`.
+3. Inside the component, use `console.log` to log the value of `message`.
+4. Render `LoggerComponent` in the main app component and pass a string as the `message` prop.
+5. Open the browser's developer console to see the logged message.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Exercise 2: Refactoring from Static to Dynamic Content
+**Objective:** Learn to refactor a component to use props for dynamic content.
+1. See `UserProfile`, component that displays hardcoded user information.
+2. Modify `UserProfile` to accept props like `name`, `age`, and `location`.
+3. Replace the hardcoded information in the render method with the props.
+4. Render `UserProfile` three times in the main app component and pass different sets of user information as props.
 
-## Available Scripts
+### Exercise 3: Adding and Rendering Multiple Props
+**Objective:** Handle and render multiple props in a single component.
+1. Create a `ProductCard` component that represents a product with properties like `title`, `price`, and `description`.
+2. Pass these properties as props from the parent component.
+3. In `ProductCard`, display these props in a structured layout (like a card format).
+4. Render several `ProductCard` components with different props to display a list of products.
 
-In the project directory, you can run:
+### Exercise 4: Props in a List Component
+**Objective:** Use props to dynamically generate a list of items.
+1. Create a component `ItemList` that accepts an array of items as a prop.
+2. Inside `ItemList`, use the `.map` function to iterate over the array and render each item.
+3. Render `ItemList` in the main app component and pass an array of strings (like shopping list items).
 
-### `npm start`
+### Exercise 5: Reading and Understanding Code with Props
+**Objective:** Enhance code reading and understanding skills.
+1. Look at the `BlogPost` component 
+2. Answer the following
+   - What props does the component expect?
+   - How will these props be used in the component?
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
